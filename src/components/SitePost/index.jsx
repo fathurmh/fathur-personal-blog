@@ -80,7 +80,7 @@ class SitePost extends React.Component {
               <time dateTime={date}>{date}</time>
               <br />
               <div className="author">
-                <i><strong>{author ? author: 'Unknown'}</strong></i> in {this.categories(cate)}
+                <i><strong>Author: {author ? author: 'Unknown'}</strong></i>
               </div>
             </div>
             {ad}
