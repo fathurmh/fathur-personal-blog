@@ -3,7 +3,7 @@ module.exports = {
     title: 'PERSEVERANCE',
     description:
       "Persistent Perseverance, a personal blog by Fathurahman Ma'ruf Hudoarma, about life, code, and random $h1t",
-    siteUrl: 'https://fathurmh.github.io',
+    siteUrl: 'https://fathurmh.netlify.com',
     author: "Fathurahman Ma'ruf Hudoarma",
     adsense: '',
     twitter: 'http://www.twitter.com/fathurmh',
