@@ -38,7 +38,7 @@ class Profile extends React.Component {
           <div className="container">
             <img
               src={'/img/profile-fathur.jpg'}
-              alt=""
+              alt="fathurmh"
               className="rounded-circle mx-auto d-block"
               width="120px"
             />
