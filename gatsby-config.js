@@ -3,12 +3,12 @@ module.exports = {
     title: 'PERSEVERANCE',
     description:
       "Persistent Perseverance, a personal blog by Fathurahman Ma'ruf Hudoarma, about life, code, and random $h1t",
-    siteUrl: '',
+    siteUrl: 'fathurmh.github.io',
     author: "Fathurahman Ma'ruf Hudoarma",
     adsense: '',
     twitter: 'http://www.twitter.com/fathurmh',
   },
-  pathPrefix: '/',
+  pathPrefix: '/blog',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
