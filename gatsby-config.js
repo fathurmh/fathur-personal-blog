@@ -8,7 +8,7 @@ module.exports = {
     adsense: '',
     twitter: 'http://www.twitter.com/fathurmh',
   },
-  pathPrefix: '/blog',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
