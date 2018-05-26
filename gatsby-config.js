@@ -8,7 +8,7 @@ module.exports = {
     adsense: '',
     twitter: 'http://www.twitter.com/fathurmh',
   },
-  pathPrefix: '/blog',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
@@ -48,7 +48,7 @@ module.exports = {
         short_name: 'PERSEVERANCE',
         description:
           "Persistent Perseverance, a personal blog by Fathurahman Ma'ruf Hudoarma, about life, code, and random $h1t",
-        homepage_url: '',
+        homepage_url: 'https://fathurmh.netlify.com',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#673ab7',
@@ -70,7 +70,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: '',
+        trackingId: 'UA-119881816-1',
       },
     },
     {

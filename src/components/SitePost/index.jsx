@@ -6,6 +6,7 @@ import size from 'lodash/size'
 import Adsense from '../Adsense'
 import Footer from '../SiteFoot'
 import './style.scss'
+import { DiscussionEmbed } from 'disqus-react'
 
 class SitePost extends React.Component {
   more(path) {
@@ -17,11 +18,7 @@ class SitePost extends React.Component {
   }
 
   back() {
-    return (
-      <Link className="readmore" to={"/"}>
-        <span className="btn btn-outline-info btn-block">BACK TO HOME</span>
-      </Link>
-    )
+    return
   }
 
   isMore(body) {
@@ -58,6 +55,11 @@ class SitePost extends React.Component {
     const date = get(data, 'frontmatter.date')
     const author = get(data, 'frontmatter.author')
     const html = get(data, 'html')
+    const disqusShortname = 'fathurmh-netlify-com'
+    const disqusConfig = {
+      identifier: path,
+      title: title,
+    }
     const description =
       get(data, 'frontmatter.description') || this.description(html)
     const cate =
@@ -90,7 +92,14 @@ class SitePost extends React.Component {
             />
             {isMore ? this.more(path) : ''}
             {ad}
-            {isIndex ? '' : this.back()}
+            {isIndex ? '' :
+              <div>
+                <Link className="readmore" to={"/"}>
+                  <span className="btn btn-outline-info btn-block">BACK TO HOME</span>
+                </Link>
+                <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+              </div>
+          }
           </div>
         </div>
       </div>

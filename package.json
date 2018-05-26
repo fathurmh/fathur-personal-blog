@@ -4,6 +4,7 @@
   "version": "1.9.119",
   "author": "Fathurahman Ma'ruf Hudoarma <fathurmh@gmail.com>",
   "dependencies": {
+    "disqus-react": "^1.0.5",
     "gatsby": "^1.9.130",
     "gatsby-link": "^1.6.31",
     "gatsby-plugin-catch-links": "^1.0.14",
