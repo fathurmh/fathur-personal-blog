@@ -5,7 +5,7 @@ module.exports = {
       "Persistent Perseverance, a personal blog by Fathurahman Ma'ruf Hudoarma, about life, code, and random $h1t",
     siteUrl: 'https://fathurmh.netlify.com',
     author: "Fathurahman Ma'ruf Hudoarma",
-    adsense: '',
+    adsense: 'ca-pub-7385065488725185',
     twitter: 'http://www.twitter.com/fathurmh',
   },
   pathPrefix: '/',
