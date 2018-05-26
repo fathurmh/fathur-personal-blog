@@ -82,7 +82,7 @@ class SitePost extends React.Component {
               <time dateTime={date}>{date}</time>
               <br />
               <div className="author">
-                <i><strong>Author: {author ? author: 'Unknown'}</strong></i>
+                <i><strong>{author ? author: 'Unknown'}</strong></i>
               </div>
             </div>
             {ad}
