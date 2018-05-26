@@ -32,16 +32,16 @@ export default class HTML extends React.Component {
           {css}
           <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
           <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-7385065488725185",
+            enable_page_level_ads: true});
+          </script>
         </head>
         <body>
           <div id="___gatsby" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           {this.props.postBodyComponents}
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7385065488725185",
-            enable_page_level_ads: true});
-        </script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js" />
         </body>
       </html>
