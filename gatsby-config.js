@@ -51,7 +51,7 @@ module.exports = {
         homepage_url: 'https://fathurmh.netlify.com',
         start_url: '/',
         background_color: '#fff',
-        theme_color: '#673ab7',
+        theme_color: '#fff',
         display: 'standalone',
         icons: [
           {
