@@ -97,6 +97,7 @@ class SitePost extends React.Component {
                 <Link className="readmore" to={"/"}>
                   <span className="btn btn-outline-info btn-block">BACK TO HOME</span>
                 </Link>
+                <br />
                 <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
               </div>
           }
